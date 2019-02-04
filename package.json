@@ -1,0 +1,28 @@
+{
+  "name": "mocha-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "mocha --require @babel/register --require ignore-styles --opts spec/mocha.opts --require spec/index.js  spec/**/*.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "^13.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
